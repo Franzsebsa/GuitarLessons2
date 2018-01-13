@@ -1,0 +1,24 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--  dentro de esta se
+     establecen los botones !-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+
+        >
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bordes_botones"
+            android:id="@+id/navegacionVista">
+
+        </android.support.design.widget.BottomNavigationView>
+
+
+
+
+    </RelativeLayout>
+
+</merge>
